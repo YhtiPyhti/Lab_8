@@ -60,10 +60,11 @@ void zad_1() {
     map<int, int> ::iterator it1 = PC.end();
     is_Goog(it0, it1);
 }
+
 void zad_2() {
     string s, p;
     s = "aaasdxzc";
-    p = "*";
+    p = "*???";
     int slen = s.length();
     cout << boolalpha << is_Shut(s, p, slen) << endl;
 }
